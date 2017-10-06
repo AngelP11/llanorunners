@@ -1,0 +1,210 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.logo{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.admin-header {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.admin-header a {
+	font-size: 20px;
+	margin-right: 30px;
+	color: black;
+}
+#app{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+header {
+	background-attachment: fixed;
+	background-image: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 680px;
+}
+.header-registred {
+	background-attachment: fixed;
+	background-image: url(../img/completo.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 100vh;
+}
+.evento-info {
+	font-family: 'Anton', sans-serif;
+	background-color: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	height: 680px;
+	color: #fff;
+}
+.evento-info img {
+	width: 350px;
+}
+.evento-info .txt-1 {
+	font-size: 32px;
+}
+.evento-info h1 {
+	font-size: 72px;
+}
+.evento-info h2 {
+	margin-bottom: 30px;
+}
+.evento-info .txt-2 {
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+.links a {
+	color: #000;
+	text-decoration: none;
+	font-size: 25px;
+	
+	
+	/*background: rgb(33,255,0); 
+	background: -moz-linear-gradient(top,  rgba(33,255,0,1) 0%, rgba(0,182,144,1) 100%); 
+	background: -webkit-linear-gradient(top,  rgba(33,255,0,1) 0%,rgba(0,182,144,1) 100%); 
+	background: linear-gradient(to bottom,  rgba(33,255,0,1) 0%,rgba(0,182,144,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21ff00', endColorstr='#00b690',GradientType=0 );*/
+
+	/*background-color: #F3393C;*/
+	/*background-color: #00B690;*/
+	background-color: #00ff00;
+	padding: 6px 100px;
+	border-radius: 5px;
+	margin-right: 20px;
+}
+.content {
+	font-family: 'PT Sans', sans-serif;	
+}
+.cross-country {
+	display: flex;
+}
+.cross-country p {
+ 	font-size: 18px;
+}
+.cross-country h2 {
+	font-size: 42px;
+	margin: 30px 0 20px 0;
+}
+.cross-country img {
+	margin-right: 10px;	
+	width: 500px;
+	height: 350px;
+}
+.linea {
+	width: 100%;
+	border-top: 1px solid black;
+}
+.txt-title {
+	width: 480px;
+	margin: 0 auto;
+	font-size: 42px;
+	position: relative;
+	padding: 5px;
+	background-color: white;
+}
+.fondo-negro{
+	background-color: rgba(0, 0, 0, 0.7);
+}
+.inscripsion {
+	text-align: center;
+}
+.inscripsion .txt-title {
+	top: 30px;
+	width: 320px;
+}
+.pasos {
+	color: white;
+}
+.pasos p, li, strong {
+	font-size: 20px;
+}
+.pasos ul {
+	padding-bottom: 20px;
+}
+.pasos h2 {
+	padding-top: 20px;
+	font-size: 42px;
+}
+.paso-1 {
+	background-image: url(../img/14.JPG);
+	background-size: cover;
+	/*padding: 12px;*/
+	margin-top: 60px;
+	text-align: center;
+}
+.paso-2 {
+	background-image: url(../img/16.JPG);
+	background-size: cover;
+	/*padding: 12px;*/
+}
+.formulario {
+	padding: 10px;
+	width: 50%;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 20px;
+}
+.submit {
+	margin-top: 20px;
+	color: #000;
+	text-decoration: none;
+	font-size: 25px;
+	border: none;
+	
+	
+	/*background: rgb(33,255,0);
+	background: -moz-linear-gradient(top,  rgba(33,255,0,1) 0%, rgba(0,182,144,1) 100%); 
+	background: -webkit-linear-gradient(top,  rgba(33,255,0,1) 0%,rgba(0,182,144,1) 100%); 
+	background: linear-gradient(to bottom,  rgba(33,255,0,1) 0%,rgba(0,182,144,1) 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#21ff00', endColorstr='#00b690',GradientType=0 ); */
+
+	/*background-color: #F3393C;*/
+	/*background-color: #00B690;*/
+	background-color: #00ff00;
+	padding: 6px 100px;
+	border-radius: 5px;
+	margin-right: 20px;
+}
+.patrocinantes {
+	margin:10px 10px 40px 10px;
+	text-align: center;
+}
+.patrocinantes .txt-title{
+	top: 30px;
+}
+.imgs-patro{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 60px;
+}
+.imgs-patro img {
+	margin-right: 40px;
+	width: 200px;
+	height: 150px;
+}
+.imgs-patro .santa {
+	width: 200px;
+	height: 100px;
+}
+footer{
+	color: white;
+	background-color: #000;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+	margin-top: 20px;
+	text-align: center;
+	padding: 30px;
+}
+
+footer a {
+	margin-right: 10px;
+	text-decoration: none;
+	color: white;
+}
