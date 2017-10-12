@@ -10,7 +10,6 @@
 
         <div class="links">
             <a class="inscripsion" href="/">Volver a inicio</a>
-            {{-- <a href="#">¿Qué es una carrera Cross Country?</a> --}}
         </div>
     </div>
 @endsection

@@ -20,7 +20,7 @@ class CreateCompetitorsTable extends Migration
             $table->date('birthdate');
             $table->enum('gender', ['M', 'F']);
             $table->string('telephone');
-            $table->string('email')->unique();
+            $table->string('email');
             $table->string('club');
             $table->string('references_number');
             $table->date('payment_date');    

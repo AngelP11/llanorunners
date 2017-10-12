@@ -42,10 +42,10 @@
 
                     <br><br>
 
-                    <p>PARA  FORMALIZAR LA INSCRIPCIÓN, REALIZAR  DEPÓSITO EN EFECTIVO O TRANSFERENCIA ELECTRÓNICA POR   LA CANTIDAD DE <strong>25.000,00 BsF</strong><br> (12% DE DESCUENTO INSCRIPCIONES POR GRUPO) (CUPOS LIMITADOS) EN LA SIGUIENTE CUENTA:<br><br> 
+                    <p>PARA  FORMALIZAR LA INSCRIPCIÓN, REALIZAR  DEPÓSITO EN EFECTIVO O TRANSFERENCIA ELECTRÓNICA POR LA CANTIDAD DE <strong>25.000,00 BsF</strong> PRECIO DE PRE-VENTA HASTA 15-10-2017, EL MONTO DESPUES DE ESA FECHA SERA DE 30000,00 BsF <br> (12% DE DESCUENTO INSCRIPCIONES POR GRUPO) (CUPOS LIMITADOS) EN LA SIGUIENTE CUENTA:<br><br> 
                     CUENTA CORRIENTE BANCO VENEZOLANO DE CREDITO NO. 0104 0167 44  0167002110<br>
-                    A NOMBRE DE: MARIA ALEJANDRA ZURLINI (WAROPOFIT)<br>
-                    CI: V-12840025-3   (Firma Personal)<br>
+                    A NOMBRE DE: MARIA ALEJANDRA ZURLINI (WARAPOFIT)<br>
+                    CI: V-128400253   (Firma Personal)<br>
                     CORREO ELECTRÓNICO : 10kllanorunners@gmail.com</p>
 
                     <br>
@@ -139,6 +139,8 @@
             <img src="{{ asset('img/logo_bruna.jpg') }}" alt="Bruna">
             <img src="{{ asset('img/logoinverjgm.jpg') }}" alt="Inversiones JGM">
             <img src="{{ asset('img/logowarapofit.jpg') }}" alt="WarapoFit">
+            <img src="{{ asset('img/logo_bq.jpg') }}" alt="Tornillos BQ">
+            <img src="{{ asset('img/logo_multicera.jpg') }}" alt="Multi cera de los llanos">
         </div>
     </div>
 

@@ -179,13 +179,11 @@ header {
 	top: 30px;
 }
 .imgs-patro{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-top: 60px;
+	margin-top: 30px;
 }
 .imgs-patro img {
 	margin-right: 40px;
+	margin-top: 5px;
 	width: 200px;
 	height: 150px;
 }

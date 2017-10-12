@@ -16,9 +16,6 @@ class CompetitorController extends Controller
     		$competitor->club = "No Aplica";
     	}
 
-        /*hechizero19942@gmail.com*/
-        /*789452136*/
-
     	$competitor->save();
 
     	Mail::to($competitor->email)->send(new CompetitorMail($competitor->id));

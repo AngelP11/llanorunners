@@ -11,7 +11,7 @@
 	<body>
 		<section class="email-info">	
 			<figure class="logo">
-				<img src="{{ asset('img/logo_llanorunners.png') }}" alt="Logo Llanorunners">
+				<img src="{{ asset('img/logo_llanorunners.png') }}" alt="Logo Llanorunners" width="250px">
 			</figure>
 
 			<h1>Gracias por Participar en el la Carrera Croos Country Camburito 12K</h1>
