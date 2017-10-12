@@ -14,6 +14,7 @@ class Competitor extends Model
     	'telephone',
     	'email',
     	'club',
+        'amount'
     	'references_number',
     	'payment_date',
     ];

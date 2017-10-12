@@ -22,6 +22,7 @@ class CreateCompetitorsTable extends Migration
             $table->string('telephone');
             $table->string('email');
             $table->string('club');
+            $table->string('amount');
             $table->string('references_number');
             $table->date('payment_date');    
             $table->timestamps();

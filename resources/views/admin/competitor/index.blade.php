@@ -14,6 +14,7 @@
 	      <th>Telefono</th>
 	      <th>E-mail</th>
 		  <th>Club</th>
+		  <th>Monto Pagado</th>
 		  <th>Numero de referencia</th>
 		  <th>Fecha de Pago</th>
 	      <th>Accion</th>
@@ -30,6 +31,7 @@
 		   <td>{{ $competitor->telephone }}</td>
 		   <td>{{ $competitor->email }}</td>
 		   <td>{{ $competitor->club }}</td>
+		   <td>{{ $competitor->amount }}</td>
 		   <td>{{ $competitor->references_number }}</td>
 		   <td>{{ $competitor->payment_date }}</td>
 	       <td><a href="{{ route('competitor.destroy', $competitor->id) }}" onclick="return confirm('¿Desea usted eliminar este competidor?')">Eliminar</a>

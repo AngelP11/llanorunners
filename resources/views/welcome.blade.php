@@ -106,6 +106,11 @@
                                 {!! Form::text('club', null, ['class' => "form-control", 'placeholder' => 'Club al que pertenece']) !!}
                             </div>
 
+                             <div class="form-group">
+                                {!! Form::label('amount', 'Monto pagado') !!}
+                                {!! Form::text('amount', null, ['class' => "form-control", 'placeholder' => 'Monto depositado o transferido']) !!}
+                            </div>
+
                             <div class="form-group">
                                 {!! Form::label('references_number', 'Numero de referencia de la transferencia o deposito') !!}
                                 {!! Form::text('references_number', null, ['class' => "form-control", 'placeholder' => 'Numero de referencia', 'required']) !!}

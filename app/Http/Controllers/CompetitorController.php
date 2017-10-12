@@ -18,7 +18,7 @@ class CompetitorController extends Controller
 
     	$competitor->save();
 
-    	Mail::to($competitor->email)->send(new CompetitorMail($competitor->id));
+    	Mail::to($competitor->email)->send(new CompetitorMail());
 
     	return redirect()->route('inscrito');
     }
