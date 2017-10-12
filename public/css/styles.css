@@ -180,10 +180,10 @@ header {
 }
 .imgs-patro{
 	margin-top: 30px;
+	text-align: center;
 }
 .imgs-patro img {
 	margin-right: 40px;
-	margin-top: 10px;
 	width: 200px;
 	height: 150px;
 }
