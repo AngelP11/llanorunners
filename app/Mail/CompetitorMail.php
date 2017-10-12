@@ -11,16 +11,14 @@ class CompetitorMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $dorsal;
-
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($dorsal)
+    public function __construct()
     {
-        $this->dorsal = $dorsal;
+
     }
 
     /**
