@@ -143,11 +143,14 @@
             <img class="super" src="{{ asset('img/super_todo.png') }}" alt="Super Todo">
             <img src="{{ asset('img/logo_bruna.jpg') }}" alt="Bruna">
             <img src="{{ asset('img/logoinverjgm.jpg') }}" alt="Inversiones JGM">
-            <img src="{{ asset('img/logowarapofit.jpg') }}" alt="WarapoFit">
-            <img src="{{ asset('img/logo_bq.jpg') }}" alt="Tornillos BQ">
-            <img src="{{ asset('img/logo_multicera.jpg') }}" alt="Multi cera de los llanos">
-            <img src="{{ asset('img/logo_contadores.jpg') }}" alt="Colegio de Contadores">
-            <img src="{{ asset('img/logo_milenaria.jpg') }}" alt="Panaderia La Milenaria">
+            
+            <div>
+                <img src="{{ asset('img/logowarapofit.jpg') }}" alt="WarapoFit">
+                <img src="{{ asset('img/logo_bq.jpg') }}" alt="Tornillos BQ">
+                <img src="{{ asset('img/logo_multicera.jpg') }}" alt="Multi cera de los llanos">
+                <img src="{{ asset('img/logo_contadores.jpg') }}" alt="Colegio de Contadores">
+                <img src="{{ asset('img/logo_milenaria.jpg') }}" alt="Panaderia La Milenaria">
+            </div>
         </div>
     </div>
 
