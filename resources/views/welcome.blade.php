@@ -141,6 +141,8 @@
             <img src="{{ asset('img/logowarapofit.jpg') }}" alt="WarapoFit">
             <img src="{{ asset('img/logo_bq.jpg') }}" alt="Tornillos BQ">
             <img src="{{ asset('img/logo_multicera.jpg') }}" alt="Multi cera de los llanos">
+            <img src="{{ asset('img/logo_contadores.jpg') }}" alt="Colegio de Contadores">
+            <img src="{{ asset('img/logo_milenaria.jpg') }}" alt="Panaderia La Milenaria">
         </div>
     </div>
 
