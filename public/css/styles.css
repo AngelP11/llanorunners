@@ -109,6 +109,7 @@ header {
 	background-color: white;
 }
 .fondo-negro{
+	height: 600px;
 	background-color: rgba(0, 0, 0, 0.7);
 }
 .inscripsion {
@@ -121,6 +122,12 @@ header {
 .pasos {
 	color: white;
 }
+.pasos .links {
+	margin-top: 20px;
+}
+.pasos a {
+	font-family: 'Anton', sans-serif;
+}
 .pasos p, li, strong {
 	font-size: 20px;
 }
@@ -128,12 +135,13 @@ header {
 	padding-bottom: 20px;
 }
 .pasos h2 {
-	padding-top: 20px;
+	padding: 20px 0;
 	font-size: 42px;
 }
 .paso-1 {
 	background-image: url(../img/14.JPG);
 	background-size: cover;
+	height: 600px;
 	/*padding: 12px;*/
 	margin-top: 60px;
 	text-align: center;
@@ -186,8 +194,7 @@ header {
 }
 .imgs-patro img {
 	margin-right: 40px;
-	width: 200px;
-	height: 150px;
+	width: 225px;
 }
 .imgs-patro .santa {
 	width: 200px;

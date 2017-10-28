@@ -9,7 +9,7 @@
         <p class="txt-2">Lugar: Polideportivo Universidad Romulo Gallego. San Juan de los Morros, Edo. Guárico - Fecha: 29 de Octubre del 2017 - Hora de salida: 7:00 AM</p>
 
         <div class="links">
-            <a class="inscripsion" href="#paso-1">!Inscribirme!</a>
+            <a class="inscripsion" href="#paso-1">¿Ya estas inscrito? Has click aqui</a>
             {{-- <a href="#">¿Qué es una carrera Cross Country?</a> --}}
         </div>
     </div>
@@ -34,39 +34,34 @@
         <div class="pasos">
             <div id="paso-1" class="paso-1">
                 <div class="fondo-negro">
-                    <h2>Paso 1: Transfiera o Deposite</h2>
+                    <h2>Las inscripciones han sido cerradas</h2>
 
                     <br>
 
-                    <strong>NOTA: La edad mínima para inscribirse en la Carrera es de 15 años (con autorización por escrito del representante)</strong>
+                    <strong>NOTA: Si desea inscribirse por medio de transferencia, debera hacerla desde el mismo banco a la siguiente cuenta por el monto de 30000,00 BsF:</strong>
 
                     <br><br>
 
-                    <p>PARA  FORMALIZAR LA INSCRIPCIÓN, REALIZAR  DEPÓSITO EN EFECTIVO O TRANSFERENCIA ELECTRÓNICA POR LA CANTIDAD DE <strong>25.000,00 BsF</strong> PRECIO DE PRE-VENTA HASTA 15-10-2017, EL MONTO DESPUES DE ESA FECHA SERA DE 30000,00 BsF <br> (12% DE DESCUENTO INSCRIPCIONES POR GRUPO) (CUPOS LIMITADOS) EN LA SIGUIENTE CUENTA:<br><br> 
-                    CUENTA CORRIENTE BANCO VENEZOLANO DE CREDITO NO. 0104 0167 44  0167002110<br>
+                    {{-- <p>PARA  FORMALIZAR LA INSCRIPCIÓN, REALIZAR  DEPÓSITO EN EFECTIVO O TRANSFERENCIA ELECTRÓNICA POR LA CANTIDAD DE <strong>25.000,00 BsF</strong> PRECIO DE PRE-VENTA HASTA 15-10-2017, EL MONTO DESPUES DE ESA FECHA SERA DE 30000,00 BsF <br> (12% DE DESCUENTO INSCRIPCIONES POR GRUPO) (CUPOS LIMITADOS) EN LA SIGUIENTE CUENTA:<br><br>  --}}
+
+                    <p>CUENTA CORRIENTE BANCO VENEZOLANO DE CREDITO NO. 0104 0167 44  0167002110<br>
                     A NOMBRE DE: MARIA ALEJANDRA ZURLINI (WARAPOFIT)<br>
                     CI: V-128400253   (Firma Personal)<br>
                     CORREO ELECTRÓNICO : 10kllanorunners@gmail.com</p>
 
                     <br>
+                        
+                    <h2>Si ya estas inscrito:</h2>
 
-                    <strong>Su inscripcion incluye:</strong><br><br>
-                    <ul>
-                        <li>DORSAL (NÚMERO).</li>
-                        <li>HIDRATACIÓN DURANTE Y AL FINAL DE LA COMPETENCIA.</li>
-                        <li>REFRIGERIO.</li>
-                        <li>ARCO  Y CRONÓMETRO EN  SALIDA Y LLEGADA.</li>
-                        <li>MEDALLA DE FINALISTA A TODO EL CONCLUYA LA RUTA.</li>
-                        <li>PREMIACIÓN EN METÁLICO A TODAS LAS CATEGORIAS.</li>
-                        <li>PROMOCIÓN EN MEDIOS DE COMUNICACIÓN  Y REDES SOCIALES.</li>
-                        <li>ASISTENCIA  MÉDICA.</li>
-                        <li>SEGURIDAD  POLICIAL.</li>
-                        <li>¡Y MUCHAS SORPRESAS MAS!</li>
-                    </ul>  
+                    <strong>Si usted esta ya esta inscrito, Descargue el siguiente archivo PDF con informacion referente a la carrera, y el acta de "Liberacion de Responsabilidades" el cual debe ser llenado y firmado para su entrega al momento de retirar el material</strong><br><br>
+                    
+                    <div class="links">
+                        <a class="inscripsion" href="{{ asset('pdf/informacion_y_normativa_cross_country.pdf') }}">Descargar PDF</a>
+                    </div>
                 </div>
             </div>
 
-            <div class="paso-2">
+            {{-- <div class="paso-2">
                 <div class="fondo-negro">
                     <h2>Paso 2: Registrate</h2>
                     <div class="formulario">
@@ -129,7 +124,7 @@
                         {!! Form::close() !!}
                     </div>
                 </div>
-            </div>
+            </div> --}}
         </div>
     </div>
 
@@ -150,6 +145,16 @@
                 <img src="{{ asset('img/logo_multicera.jpg') }}" alt="Multi cera de los llanos">
                 <img src="{{ asset('img/logo_contadores.jpg') }}" alt="Colegio de Contadores">
                 <img src="{{ asset('img/logo_milenaria.jpg') }}" alt="Panaderia La Milenaria">
+                <img src="{{ asset('img/logo_asobroste.png') }}" alt="Pollos asobroste">
+                <img src="{{ asset('img/logo_peregil.jpg') }}" alt="Restaurant Perejil">
+                <img src="{{ asset('img/logo_hotel_ana.jpg') }}" alt="Hotel Ana Tours">
+                <img src="{{ asset('img/logo_odontologo.jpg') }}" alt="Consultario Odontologico Dr. Sandra Gomez">
+                <img src="{{ asset('img/logo_pollo_brasa.jpg') }}" alt="Pollos en Brasas los Morros">
+                <img src="{{ asset('img/logo_zeeca.jpg') }}" alt="inversiones Zeeca">
+                <img src="{{ asset('img/logo_g7.jpg') }}" alt="Mundo G7">
+                <img src="{{ asset('img/logo_materiales.jpg') }}" alt="Materiales Guarico">
+                <img src="{{ asset('img/logo_vencedor.jpg') }}" alt="Distribuidora El Vencedor">
+                <img src="{{ asset('img/logo_maquinaria.jpg') }}" alt="Maquinarias y Materiales">
             </div>
         </div>
     </div>
