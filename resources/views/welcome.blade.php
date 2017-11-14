@@ -6,10 +6,12 @@
         <p class="txt-1">¡Se complace en invitarlos al!</p>
         <h1 class="title">"Cross Country Camburito 12k"</h1>
         <h2>Demuestra de que estas hecho</h2>
-        <p class="txt-2">Lugar: Polideportivo Universidad Romulo Gallego. San Juan de los Morros, Edo. Guárico - Fecha: 29 de Octubre del 2017 - Hora de salida: 7:00 AM</p>
+        <p class="txt-2">Le evento ya fue llevadoa cabo, y ya puedes ver los resultados</p>
+
+        {{-- Lugar: Polideportivo Universidad Romulo Gallego. San Juan de los Morros, Edo. Guárico - Fecha: 29 de Octubre del 2017 - Hora de salida: 7:00 AM --}}
 
         <div class="links">
-            <a class="inscripsion" href="#paso-1">¿Ya estas inscrito? Has click aqui</a>
+            <a class="inscripsion" href="{{ asset('pdf/resultados_carrera_cross_country_12k.pdf') }}">Ver Resultados</a>
             {{-- <a href="#">¿Qué es una carrera Cross Country?</a> --}}
         </div>
     </div>
@@ -27,7 +29,7 @@
         </div>
     </div>
 
-    <div class="inscripsion">
+    {{-- <div class="inscripsion">
         <p class="txt-title">¡Inscripcion!</p>
         <div class="linea"></div>
 
@@ -44,7 +46,7 @@
 
                     {{-- <p>PARA  FORMALIZAR LA INSCRIPCIÓN, REALIZAR  DEPÓSITO EN EFECTIVO O TRANSFERENCIA ELECTRÓNICA POR LA CANTIDAD DE <strong>25.000,00 BsF</strong> PRECIO DE PRE-VENTA HASTA 15-10-2017, EL MONTO DESPUES DE ESA FECHA SERA DE 30000,00 BsF <br> (12% DE DESCUENTO INSCRIPCIONES POR GRUPO) (CUPOS LIMITADOS) EN LA SIGUIENTE CUENTA:<br><br>  --}}
 
-                    <p>CUENTA CORRIENTE BANCO VENEZOLANO DE CREDITO NO. 0104 0167 44  0167002110<br>
+                    {{--<p>CUENTA CORRIENTE BANCO VENEZOLANO DE CREDITO NO. 0104 0167 44  0167002110<br>
                     A NOMBRE DE: MARIA ALEJANDRA ZURLINI (WARAPOFIT)<br>
                     CI: V-128400253   (Firma Personal)<br>
                     CORREO ELECTRÓNICO : 10kllanorunners@gmail.com</p>
@@ -59,7 +61,7 @@
                         <a class="inscripsion" href="{{ asset('pdf/informacion_y_normativa_cross_country.pdf') }}">Descargar PDF</a>
                     </div>
                 </div>
-            </div>
+            </div> --}}
 
             {{-- <div class="paso-2">
                 <div class="fondo-negro">
